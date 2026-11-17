@@ -1,0 +1,31 @@
+# Credenciales y datos reales
+.env
+*.env
+!.env.example
+
+# Inventarios de equipos
+*.csv
+*.dpapi
+
+# Salida de los respaldos
+backups/
+respaldos/
+*.conf
+*.tgz
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Logs
+logs/
+*.log
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
